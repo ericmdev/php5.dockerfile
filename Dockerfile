@@ -3,7 +3,7 @@
 # VERSION 0.0.1
 
 # Pull the base image.
-FROM ericmdev/essentials
+FROM ericmdev/essentials-common
 
 # Set the author.
 MAINTAINER Eric Mugerwa <dev@ericmugerwa.com>
