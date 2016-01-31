@@ -23,9 +23,6 @@ RUN apt-get update && apt-get install -y \
     php5-curl \
     php5-intl
 
-# Add managed php ini files.
-ADD ${FILES}/etc/php5/cli/conf.d/cli.ini /etc/php5/cli/conf.d/
-
 # Configure executable.
 ENTRYPOINT ["/bin/bash"]
 
